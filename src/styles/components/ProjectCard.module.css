@@ -1,0 +1,26 @@
+/* src/styles/components/ProjectCard.module.css */
+
+.projectCard {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .projectCard h3 {
+    margin-top: 0;
+  }
+  
+  .projectCard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .projectCard button:hover {
+    background-color: #0056b3;
+  }

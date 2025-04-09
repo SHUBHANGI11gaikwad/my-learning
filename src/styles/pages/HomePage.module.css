@@ -1,0 +1,13 @@
+/* src/styles/pages/HomePage.module.css */
+
+.homePage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projectList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
